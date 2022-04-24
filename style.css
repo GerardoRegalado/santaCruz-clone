@@ -1,0 +1,311 @@
+/* IMPORTACIONES */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+/* Configuracion general */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+
+}
+
+main {
+
+    background-color: black;
+}
+
+/* SECTION */
+
+section {
+
+    position: relative;
+    width: 100%;
+    min-height: 500px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a1a1a1;
+
+}
+
+/* HEADER */
+
+header {
+   
+    position: flex;
+    width: 100%;
+    display: flex;
+    z-index: 0;
+    height: 200px;
+    border-bottom: 10px black solid;
+    
+}
+
+#logo {
+    
+    position: relative;
+    bottom: 20px;
+    max-width: 200px;
+    display: inline;
+    
+}
+
+header ul {
+    display: none;
+}
+
+
+
+/* HOME */
+
+#home {
+
+    position: relative;
+    width: 100%;
+    min-height: 221px;
+    padding: 0;
+    
+}
+
+#home img {
+
+    width: 100%;
+    margin: 0;
+}
+
+#home .bloque-inicio {
+
+    position: absolute;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    top: 25px;
+    right: 70px;
+    
+
+
+}
+
+#home .bloque-inicio h1{
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    margin: 0;
+    color: cornsilk;
+    
+
+}
+
+#home .bloque-inicio p {
+
+    font-family: 'Bebas Neue', cursive;
+    font-size: 25px;
+    margin: 0;
+    color:cornsilk;
+    margin-left: 108px;
+
+   
+   
+}
+
+ #home .boton {
+
+    position: relative;
+    text-align: center;
+    font-size: 12px;
+    width: 70px;
+    padding: 2px;
+    margin: 0 auto;
+    color: beige;
+    left: 60px;
+    top: 3px;
+    background-color: #3d4b1a;
+    border-radius: 5px;
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    cursor: pointer; 
+}
+
+
+
+
+
+#about {
+    position: relative;
+    width: 100%;
+    min-height: 80px;
+    padding: 0;
+
+}
+
+#about .about-image {
+
+    position: relative;
+    width: 100%;
+    height: 80px;
+}
+
+#about .about-image img {
+
+    width: 100%;
+    height: 80px;
+    margin: 0;
+    filter: grayscale(1);
+    filter: blur(3px);
+    
+}
+
+.acerca {
+
+    position: absolute;
+    margin: auto 0 auto 0;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.acerca h1 {
+margin-top: 1rem;
+    color: beige;
+}
+
+.acerca p {
+
+    color: beige;
+    font-size: 10px;
+    font-weight: 500;
+    margin-bottom: 2rem;
+   
+}
+
+
+/* SHOP */
+
+#shop {
+
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    padding: 0;
+   
+    
+}
+
+.container {
+
+    color: beige;
+    width: 100%;
+    margin: auto 0 auto 0 ;
+    background-image: url("images/shopbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.title {
+    text-align: center;
+    margin-top: 1rem;
+    color: beige;
+    font-size: 1.2rem;
+}
+
+.container .title {
+
+    margin-bottom: 1rem;
+
+}
+
+.card {
+
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4rem;
+    margin-right: 0;
+    
+
+}
+
+.columna {
+    width: 40%;
+    padding-right: 15px;
+    padding-left: 15px;
+    
+  }
+
+
+.bloque {
+    
+    border: 1px solid #828282;
+    background-color: black;
+    color: whitesmoke; 
+}
+
+.imagen  img{
+
+   width: 100%;
+   
+}
+
+.contenido {
+
+   margin-top: 10px;
+    margin-left: 5px;
+    padding-bottom: 1rem;
+    
+
+
+}
+
+.contenido h4{
+    
+    font-weight: 500;
+}
+
+.contenido h5 {
+
+    font-weight: 300;
+    font-size: 13px;
+    color: #babcb9;
+}
+
+.contenido p {
+    
+    font-weight: 100;
+    font-size: 12px;
+    text-decoration: underline;
+    
+    margin-top: 5px;
+   
+    width: fit-content;
+    border-radius: 6px;
+    color: #babcb9;
+    cursor: pointer;
+}
+
+
+
+/* FOOTER */
+
+#footer {
+
+    background-color: #2a2a2a ;
+    position: relative;
+    width: 100%;
+    min-height: auto;
+    padding: 0;
+}
+
+footer {
+    
+    width: 100%;
+   
+}
